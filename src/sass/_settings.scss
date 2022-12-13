@@ -1,0 +1,20 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+a {
+  text-decoration: none;
+  color: $greenDark;
+}
+body{
+  font-family: 'Raleway';
+  font-weight: 400;
+  font-size: 14px;
+  color: $greenDark;
+  outline: none;
+}
+img{
+  max-width: 100%;
+}

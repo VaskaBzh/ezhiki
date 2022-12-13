@@ -1,0 +1,22 @@
+.contacts {
+  &__phone {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 283px;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 500;
+
+    &-block {
+      width: 69px;
+      height: 69px;
+      border-radius: 100%;
+      background: linear-gradient(1.36deg, $gray 12.29%, $light 83.89%);
+      box-shadow: -4px -4px 20px $white, 4px 4px 20px $grayLight2;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 20px;
+    }
+  }
+}

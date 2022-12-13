@@ -1,0 +1,14 @@
+.basket {
+  position: absolute;
+
+  &::after {
+    content: '1';
+    width: 19px;
+    height: 19px;
+    border-radius: 100%;
+    background-color: $light;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
